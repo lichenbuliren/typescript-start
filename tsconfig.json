@@ -4,6 +4,8 @@
         "noImplicitAny": false,
         "module": "commonjs",
         "removeComments": false,
-        "sourceMap": true
+        "sourceMap": true,
+        // 编译之后的文件输出到build文件夹
+        "outDir": "./build"
     }
 }

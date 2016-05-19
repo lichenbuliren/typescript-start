@@ -34,7 +34,7 @@ var age: number = athena[1];
 // Enum 枚举类型,枚举类型可以当做其它类型一样来使用
 enum Color { Red, Green, Blue };
 const red: Color = Color.Red;
-
+                                
 enum RomanceLanguages { Spanish = 1, French, Italian, Romanian, Portuguese };
 console.log(RomanceLanguages[4]);
 console.log(RomanceLanguages[0]);
@@ -92,6 +92,3 @@ multiplyFirst = function(first:number) {
 
 console.log(multiply(5,2)); // 10
 console.log(multiplyFirst(9)(2)); // 18
-
-
-
